@@ -1,0 +1,29 @@
+{ "command": "flight", "id": "flight1", "dropzone": "Air Temple", "starttime": "2007-12-02T10:00", "endtime": "2007-12-02T10:15", "maxload": 30 }
+
+{ "command": "skydiver", "skydiver": "Sokka", "licence": "licenced-jumper"}
+{ "command": "skydiver", "skydiver": "Toph", "licence": "licenced-jumper"}
+{ "command": "skydiver", "skydiver": "Katara", "licence": "licenced-jumper"}
+{ "command": "skydiver", "skydiver": "Aang", "licence": "tandem-master", "dropzone": "Air Temple"}
+{ "command": "skydiver", "skydiver": "Appa", "licence": "tandem-master", "dropzone": "Ba Sing Se"}
+
+{ "command": "skydiver", "skydiver": "Korra", "licence": "instructor", "dropzone": "Kyoshi Island"}
+{ "command": "skydiver", "skydiver": "Asami", "licence": "licenced-jumper"}
+{ "command": "skydiver", "skydiver": "Bolin", "licence": "licenced-jumper"}
+{ "command": "skydiver", "skydiver": "Mako", "licence": "licenced-jumper"}
+
+{ "command": "skydiver", "skydiver": "Boulder", "licence": "tandem-master", "dropzone": "Air Temple"}
+{ "command": "skydiver", "skydiver": "Cabbage guy", "licence": "tandem-master", "dropzone": "Ba Sing Se"}
+{ "command": "skydiver", "skydiver": "Tenzin", "licence": "instructor", "dropzone": "Kyoshi Island"}
+
+{ "command": "skydiver", "skydiver": "Jinora", "licence": "licenced-jumper"}
+{ "command": "skydiver", "skydiver": "Meelo", "licence": "licenced-jumper"}
+
+{ "command": "skydiver", "skydiver": "Ikki", "licence": "licenced-jumper"}
+
+{ "command": "request", "type": "fun", "id": "BIG TEAM AVATAR", "starttime": "2007-12-02T10:00", "skydivers": ["Sokka", "Toph", "Appa", "Katara", "Aang"] }
+{ "command": "request", "type": "fun", "id": "TEAM AVATAR 2", "starttime": "2007-12-02T10:00", "skydivers": ["Korra", "Asami", "Bolin", "Mako"] }
+{ "command": "request", "type": "fun", "id": "3 COOL DUDES", "starttime": "2007-12-02T10:00", "skydivers": ["Boulder", "Cabbage guy", "Tenzin"] }
+{ "command": "request", "type": "fun", "id": "2 KIDS", "starttime": "2007-12-02T10:00", "skydivers": ["Jinora", "Meelo"] }
+{ "command": "request", "type": "fun", "id": "SOLO CHILD", "starttime": "2007-12-02T10:00", "skydivers": ["Ikki"] }
+
+{ "command": "jump-run", "id": "flight1" }

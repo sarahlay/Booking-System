@@ -1,0 +1,35 @@
+{
+  "flight": "flight2",
+  "dropzone": "Air Temple",
+  "status": "success"
+}
+{"status": "rejected"}
+{
+  "flight": "flight8",
+  "dropzone": "Kyoshi Island",
+  "status": "success"
+}
+{
+  "flight": "flight5",
+  "dropzone": "Ba Sing Se",
+  "status": "success"
+}
+{"status": "rejected"}
+{"status": "rejected"}
+[]
+[{
+  "passenger": "Sokka",
+  "jump-master": "Aang"
+}]
+[]
+[]
+[{"skydivers": [
+  "Appa",
+  "Katara",
+  "Korra"
+]}]
+[]
+[]
+[]
+[]
+[]

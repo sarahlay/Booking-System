@@ -1,0 +1,42 @@
+{ "command": "flight", "id": "flight1", "dropzone": "Air Temple", "starttime": "2007-12-02T09:50", "endtime": "2007-12-02T09:51", "maxload": 4 }
+{ "command": "flight", "id": "flight2", "dropzone": "Air Temple", "starttime": "2007-12-02T10:20", "endtime": "2007-12-02T10:30", "maxload": 4 }
+{ "command": "flight", "id": "flight3", "dropzone": "Air Temple", "starttime": "2007-12-02T10:25", "endtime": "2007-12-02T10:45", "maxload": 4 }
+{ "command": "flight", "id": "flight4", "dropzone": "Air Temple", "starttime": "2007-12-02T10:30", "endtime": "2007-12-02T10:50", "maxload": 4 }
+
+{ "command": "flight", "id": "flight5", "dropzone": "Ba Sing Se", "starttime": "2007-12-02T10:15", "endtime": "2007-12-02T10:35", "maxload": 20 }
+{ "command": "flight", "id": "flight6", "dropzone": "Ba Sing Se", "starttime": "2007-12-02T10:15", "endtime": "2007-12-02T10:35", "maxload": 20 }
+{ "command": "flight", "id": "flight7", "dropzone": "Ba Sing Se", "starttime": "2007-12-02T10:15", "endtime": "2007-12-02T10:35", "maxload": 20 }
+
+{ "command": "flight", "id": "flight8", "dropzone": "Kyoshi Island", "starttime": "2007-12-02T10:15", "endtime": "2007-12-02T10:55", "maxload": 60 }
+{ "command": "flight", "id": "flight9", "dropzone": "Kyoshi Island", "starttime": "2007-12-02T10:15", "endtime": "2007-12-02T10:55", "maxload": 5 }
+
+{ "command": "skydiver", "skydiver": "Sokka", "licence": "student"}
+{ "command": "skydiver", "skydiver": "Toph", "licence": "student"}
+{ "command": "skydiver", "skydiver": "Katara", "licence": "licenced-jumper"}
+
+{ "command": "skydiver", "skydiver": "Aang", "licence": "tandem-master", "dropzone": "Air Temple"}
+{ "command": "skydiver", "skydiver": "Appa", "licence": "tandem-master", "dropzone": "Ba Sing Se"}
+{ "command": "skydiver", "skydiver": "Korra", "licence": "instructor", "dropzone": "Kyoshi Island"}
+
+{ "command": "request", "type": "tandem", "id": "Need 5 minute briefing! Take off at 10:20! Expect to aboard Flight2!", "starttime": "2007-12-02T10:15", "passenger": "Sokka" }
+{ "command": "request", "type": "tandem", "id": "Need 5 minute briefing! Take off after 10:20! Wheres my Tandem Master?!", "starttime": "2007-12-02T10:15", "passenger": "Toph" }
+
+{ "command": "request", "type": "fun", "id": "Katara, Korra and Appa go out for a mission! Shall we board Flight 8 or Flight 5?", "starttime": "2007-12-02T10:15", "skydivers": ["Katara", "Korra", "Appa"] }
+
+{ "command": "flight", "id": "flight10", "dropzone": "Ba Sing Se", "starttime": "2007-12-02T10:15", "endtime": "2007-12-02T10:35", "maxload": 5 }
+
+{ "command": "change", "type": "fun", "id": "Katara, Korra and Appa go out for a mission! Shall we board Flight 8 or Flight 5?", "starttime": "2007-12-02T10:15", "skydivers": ["Katara", "Korra", "Appa"] }
+
+{ "command": "request", "type": "training", "id": "Sokka arrives for training, but there are no flights!", "starttime": "2007-12-02T17:00", "trainee": "Sokka" }
+{ "command": "request", "type": "training", "id": "Sokka arrives for training, but there are no Instructors!", "starttime": "2007-12-02T09:50", "trainee": "Sokka" }
+
+{ "command": "jump-run", "id": "flight1" }
+{ "command": "jump-run", "id": "flight2" }
+{ "command": "jump-run", "id": "flight3" }
+{ "command": "jump-run", "id": "flight4" }
+{ "command": "jump-run", "id": "flight5" }
+{ "command": "jump-run", "id": "flight6" }
+{ "command": "jump-run", "id": "flight7" }
+{ "command": "jump-run", "id": "flight8" }
+{ "command": "jump-run", "id": "flight9" }
+{ "command": "jump-run", "id": "flight10" }
